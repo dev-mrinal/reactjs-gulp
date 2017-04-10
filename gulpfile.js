@@ -32,7 +32,7 @@ gulp.task('deploy', function (){
 });
 
 gulp.task('watch', function () {
-	gulp.watch(['./app/*.js','./app2/app.js'], ['scripts']);
+	gulp.watch(['./app/*.js'], ['scripts']);
 });
 
 // When running 'gulp' on the terminal this task will fire.
@@ -47,7 +47,7 @@ function bundleApp(isProduction) {
 	// Browserify will bundle all our js files together in to one and will let
 	// us use modules in the front end.
 	var appBundler = browserify({
-    	entries: ['./app/app.js','./app2/app.js'],
+    	entries: ['./app/app.js'],
     	debug: true
   	})
 

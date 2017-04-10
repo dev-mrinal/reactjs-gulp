@@ -1,6 +1,6 @@
 /*
 *	Searchable Table
-*	Author: Jean-Pierre Sierens
+*	Author: Mrinal Mondal
 *	===========================================================================
 */
 
